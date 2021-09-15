@@ -1,0 +1,35 @@
+.main {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 700px;
+}
+
+.gradient {
+  width: 100%;
+  height: 700px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1),
+    rgba(44, 167, 160, 0.28) 25%,
+    rgba(0, 0, 0, 0.8)
+  );
+}
+
+.teste {
+  bottom: 0;
+}
+
+.gameName {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+
+  color: red;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+
+  text-shadow: 0px 11px 9px rgba(255, 255, 255, 0.05);
+}

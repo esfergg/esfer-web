@@ -1,0 +1,12 @@
+.container {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+}
+
+.header {
+  color: #fff;
+  font-family: "Rubik", sans-serif !important;
+}

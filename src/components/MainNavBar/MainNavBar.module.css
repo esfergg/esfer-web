@@ -1,0 +1,26 @@
+.menu {
+  background: rgb(
+    0,
+    0,
+    0
+  ); /* Fallback for older browsers without RGBA-support */
+  background: rgba(0, 0, 0, 0);
+}
+
+.menu_item {
+  cursor: pointer;
+  color: white !important;
+  font-family: "Rubik", sans-serif !important;
+  font-size: 20px;
+  margin: 0 15px 0 15px;
+}
+
+.toggle_icon {
+  background: linear-gradient(
+    90deg,
+    rgba(18, 255, 247, 0.57) -13.46%,
+    rgba(179, 255, 171, 0.57) 114.23%
+  );
+  border-width: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

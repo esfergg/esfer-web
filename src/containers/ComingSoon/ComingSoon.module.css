@@ -1,0 +1,13 @@
+.main {
+  height: 350px;
+  display: flex;
+  align-items: flex-start;
+  padding: 10px 20px 20px 20px;
+  width: 1900px;
+  justify-content: space-between;
+}
+
+.header {
+  color: #fff;
+  font-family: "Rubik", sans-serif !important;
+}

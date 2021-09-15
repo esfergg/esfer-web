@@ -1,0 +1,10 @@
+.label {
+  font-family: "Rubik", sans-serif;
+  font-size: 45px;
+  font-weight: bolder !important;
+  text-align: start;
+
+  background: -webkit-linear-gradient(left, #abffc9, #12fff7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
