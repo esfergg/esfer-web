@@ -1,0 +1,7 @@
+.selector {
+  cursor: pointer;
+  color: white !important;
+  font-family: "Rubik", sans-serif !important;
+  font-size: 20px;
+  margin: 0 15px 0 15px;
+}

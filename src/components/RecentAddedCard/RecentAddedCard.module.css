@@ -1,0 +1,35 @@
+.card {
+  background: #0d0c0c;
+  box-shadow: 9px 7px 15px rgba(18, 255, 247, 0.15);
+  border-radius: 6px;
+  min-width: 300px !important;
+  margin: 0 10px 25px 10px;
+}
+
+.image {
+  height: 277px;
+}
+
+.body {
+  text-align: center;
+}
+
+.description {
+  font-size: 24px !important;
+  font-family: "Rubik", sans-serif !important;
+  color: white;
+}
+
+/* .card:hover {
+  height: 0;
+  transition: height 2s;
+}
+
+.card:hover > .image {
+  width: 400px;
+  transition: all 1s;
+}
+
+.card:hover > .body {
+  visibility: hidden;
+} */

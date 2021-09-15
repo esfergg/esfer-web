@@ -1,0 +1,102 @@
+.main {
+  position: relative;
+  margin: 0 10px 0 10px;
+}
+
+.text {
+  display: block;
+  -webkit-transition: opacity 600ms, visibility 600ms;
+  transition: opacity 600ms, visibility 600ms;
+}
+
+.top_left {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottom_left {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 0px;
+  left: 16px;
+}
+
+.image {
+  width: 300px;
+  height: auto;
+  transition: width 1s;
+}
+
+.gradient {
+  display: block;
+}
+
+.gradient:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background: -moz-linear-gradient(
+    top,
+    rgba(0, 0, 0, 1),
+    rgba(44, 167, 160, 0.28) 25%,
+    rgba(0, 0, 0, 1)
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, rgba(0, 0, 0, 1)),
+    color-stop(50%, rgba(44, 167, 160, 0.28)),
+    color-stop(100%, rgba(0, 0, 0, 1))
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 1),
+    rgba(44, 167, 160, 0.28) 25%,
+    rgba(0, 0, 0, 1)
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    top,
+    rgba(0, 0, 0, 1),
+    rgba(44, 167, 160, 0.28) 25%,
+    rgba(0, 0, 0, 1)
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+    top,
+    rgba(0, 0, 0, 1),
+    rgba(44, 167, 160, 0.28) 25%,
+    rgba(0, 0, 0, 1)
+  ); /* IE10+ */
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1),
+    rgba(44, 167, 160, 0.28) 25%,
+    rgba(0, 0, 0, 1)
+  );
+  background: linear-gradient(
+    90deg,
+    #0d0c0c -11.6%,
+    rgba(13, 12, 12, 0.68) 61.1%,
+    #0d0c0c 110.35%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+.gradient:hover::after {
+  opacity: 0;
+}
+
+.gradient:hover ~ .text {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.gradient:hover > .image {
+  width: 350px;
+}
