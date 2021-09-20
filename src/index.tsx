@@ -23,8 +23,7 @@ i18n
       caches: ["cookie"],
     },
     backend: {
-      loadPath:
-        "https://esfergg.github.io/esfer-web/assets/locales/{{lng}}/translation.json",
+      loadPath: "/esfer-web/assets/locales/{{lng}}/translation.json",
     },
   });
 
