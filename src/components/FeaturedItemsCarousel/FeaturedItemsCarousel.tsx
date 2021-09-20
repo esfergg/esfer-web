@@ -18,9 +18,9 @@ const FeaturedItemsCarousel: React.FC<ICarouselProps> = ({ data }) => {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel activeIndex={index} onSelect={handleSelect} fade>
       {data.map(({ id, imgUrl, title, description }) => (
-        <Carousel.Item key={id}>
+        <Carousel.Item key={id} interval={100}>
           <div className={style.gradient}>
             <img
               className="d-block w-100"

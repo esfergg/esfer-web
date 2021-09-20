@@ -17,7 +17,7 @@ const HorizontalLogo: React.FC<IHorizontalLogoProps> = ({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0)">
+      <g clipPath="url(#clip0)">
         <path
           d="M46.52 0H11.92C5.34 0 0 5.34 0 11.92V46.52C0 53.1 5.34 58.44 11.93 58.44H46.53C53.11 58.44 58.45 53.1 58.45 46.52V11.92C58.44 5.34 53.11 0 46.52 0ZM51 29.33C51 29.52 50.99 29.71 50.97 29.89C50.69 33.26 48.11 35.09 45.15 35.96C42.81 36.64 40.42 37.23 38.01 37.67C36.58 38.03 35.22 38.35 33.97 38.67C37.69 39.91 42.4 41.02 46.69 43.03C51.11 45.11 50.99 49.82 46.64 52.1C44.7 53.11 42.34 53.73 40.15 53.78C29.74 54 20.6 50.34 12.74 43.65C12.35 43.31 11.96 42.94 11.59 42.55C10.79 41.7 10.06 40.73 9.44 39.71C8.95 38.92 8.52 38.11 8.15 37.3C6.43 33.53 7.93 30.41 11.89 29.33C12.03 29.29 12.16 29.25 12.31 29.22C12.17 29.19 12.03 29.15 11.89 29.11C7.93 28.02 6.43 24.9 8.15 21.14C8.52 20.33 8.95 19.52 9.44 18.73C9.59 18.48 9.75 18.23 9.93 17.98C10.26 17.49 10.62 17.01 11 16.55C11.19 16.32 11.39 16.1 11.59 15.89C11.95 15.5 12.34 15.13 12.74 14.79C20.6 8.11 29.74 4.45 40.16 4.67C42.35 4.72 44.72 5.34 46.65 6.35C50.99 8.63 51.11 13.34 46.7 15.42C42.42 17.43 37.7 18.54 33.98 19.78C35.23 20.1 36.58 20.43 38.02 20.78C40.43 21.22 42.83 21.8 45.16 22.49C48.27 23.4 50.98 25.38 51.01 29.12V29.33H51Z"
           fill="url(#paint0_linear)"
@@ -52,8 +52,8 @@ const HorizontalLogo: React.FC<IHorizontalLogoProps> = ({
           y2="75.2762"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#B3FFAB" />
-          <stop offset="1" stop-color="#12FFF7" />
+          <stop stopColor="#B3FFAB" />
+          <stop offset="1" stopColor="#12FFF7" />
         </linearGradient>
         <linearGradient
           id="paint1_linear"
@@ -63,8 +63,8 @@ const HorizontalLogo: React.FC<IHorizontalLogoProps> = ({
           y2="48.4952"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#B3FFAB" />
-          <stop offset="1" stop-color="#12FFF7" />
+          <stop stopColor="#B3FFAB" />
+          <stop offset="1" stopColor="#12FFF7" />
         </linearGradient>
         <linearGradient
           id="paint2_linear"
@@ -74,8 +74,8 @@ const HorizontalLogo: React.FC<IHorizontalLogoProps> = ({
           y2="48.4952"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#B3FFAB" />
-          <stop offset="1" stop-color="#12FFF7" />
+          <stop stopColor="#B3FFAB" />
+          <stop offset="1" stopColor="#12FFF7" />
         </linearGradient>
         <linearGradient
           id="paint3_linear"
@@ -85,8 +85,8 @@ const HorizontalLogo: React.FC<IHorizontalLogoProps> = ({
           y2="48.4952"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#B3FFAB" />
-          <stop offset="1" stop-color="#12FFF7" />
+          <stop stopColor="#B3FFAB" />
+          <stop offset="1" stopColor="#12FFF7" />
         </linearGradient>
         <linearGradient
           id="paint4_linear"
@@ -96,8 +96,8 @@ const HorizontalLogo: React.FC<IHorizontalLogoProps> = ({
           y2="48.4952"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#B3FFAB" />
-          <stop offset="1" stop-color="#12FFF7" />
+          <stop stopColor="#B3FFAB" />
+          <stop offset="1" stopColor="#12FFF7" />
         </linearGradient>
         <linearGradient
           id="paint5_linear"
@@ -107,8 +107,8 @@ const HorizontalLogo: React.FC<IHorizontalLogoProps> = ({
           y2="48.4952"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#B3FFAB" />
-          <stop offset="1" stop-color="#12FFF7" />
+          <stop stopColor="#B3FFAB" />
+          <stop offset="1" stopColor="#12FFF7" />
         </linearGradient>
         <clipPath id="clip0">
           <rect width="276.87" height="58.44" fill="white" />

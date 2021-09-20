@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logos_vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logos_horizontal {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.items {
+  margin-top: 20px;
+  align-items: center;
+}
